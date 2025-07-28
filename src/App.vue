@@ -2,7 +2,7 @@
   <div id="app">
     <NavBar :logo="logo_src" :alt="app_name" />
     
-    <!-- Aplica a classe que cresce e empurra o footer -->
+    
     <main class="main-content">
       <router-view />
     </main>
@@ -47,7 +47,7 @@ html, body {
 
 .main-content {
   flex: 1;
-  margin: 50px;
+  
 }
 
 h1 {
